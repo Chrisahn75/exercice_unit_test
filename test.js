@@ -8,6 +8,5 @@ test("If number is even return true, if odd return false", () => {
 
 test("If the parameter is a date in yyyy-mm-dd format, it returns a string in dd/mm/yyyy format, else it returns null", () => {
   const result = date.formatDate("2000-04-11");
-
   expect(result);
 });
